@@ -1,5 +1,5 @@
 """The app."""
-from resc.resc import add, sub
+from mypythonpackage import add, sub
 
 if __name__ == "__main__":
     print(add(1, 1))

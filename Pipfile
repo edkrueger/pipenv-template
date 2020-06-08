@@ -10,14 +10,9 @@ pytest = "*"
 pytest-cov = "*"
 pipenv-to-requirements = "*"
 pre-commit = "*"
+pipenv-setup = "*"
 
 [packages]
-black = "*"
-pylint = "*"
-pytest = "*"
-pytest-cov = "*"
-pipenv-to-requirements = "*"
-pre-commit = "*"
 
 [requires]
 python_version = "3.7"
