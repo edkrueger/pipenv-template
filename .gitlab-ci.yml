@@ -1,0 +1,21 @@
+image: python:3.7.6-buster
+
+default:
+    before_script:
+        - pip install -r requirements.txt
+        - pip install -r requirements-dev.txt
+
+stages:
+    - build
+    - test
+
+test:
+    stage: test
+    script:
+        - python -m black --check .
+        - mkdir cov 
+        - pytest --cov-config=.coveragerc --cov=resc --cov-report=term > cov/cov.txt
+        - cat cov/cov.txt
+    artifacts:
+        paths:
+            - htmlcov

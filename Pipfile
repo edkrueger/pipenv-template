@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+black = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pipenv-to-requirements = "*"
+pre-commit = "*"
+
+[packages]
+black = "*"
+pylint = "*"
+pytest = "*"
+pytest-cov = "*"
+pipenv-to-requirements = "*"
+pre-commit = "*"
+
+[requires]
+python_version = "3.7"
+
+[pipenv]
+allow_prereleases = true
+
+[scripts]
+test = "pytest --cov-config=.coveragerc --cov=resc"
