@@ -11,6 +11,7 @@ pytest-cov = "*"
 pipenv-to-requirements = "*"
 pre-commit = "*"
 pipenv-setup = "*"
+sampleproject = {editable = true, path = "."}
 
 [packages]
 

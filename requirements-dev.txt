@@ -10,6 +10,7 @@
 # `Pipfile.lock` and then regenerate `requirements*.txt`.
 ################################################################################
 
+-e .
 black
 pipenv-setup
 pipenv-to-requirements
