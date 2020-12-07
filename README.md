@@ -1,5 +1,5 @@
 # template-python-project
-A template for a simple python script with resources; uses GitLab CI, Pipenv and Pytest.  
+A template for a python package; uses Pipenv, Black, Pylint and Pytest.
 
 ## Dev Setup
 Run `pipenv install --dev` to install the env.  
