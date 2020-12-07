@@ -11,6 +11,7 @@
 ################################################################################
 
 black
+pipenv-setup
 pipenv-to-requirements
 pre-commit
 pylint
