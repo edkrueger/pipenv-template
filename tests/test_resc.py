@@ -1,7 +1,7 @@
 """
 Tests resc.py.
 """
-from mypythonpackage import add, sub
+from resc import add, sub
 
 
 def test_add():
