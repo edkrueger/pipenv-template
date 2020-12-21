@@ -17,7 +17,7 @@ repos:
           pass_filenames: false
         - id: pylint
           name: pylint
-          entry: pipenv run pylint resc/ tests/
+          entry: pipenv run pylint app.py resc/ tests/
           language: system
           always_run: true
           pass_filenames: false
