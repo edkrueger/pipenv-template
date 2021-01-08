@@ -9,5 +9,5 @@ Run `pipenv run pre-commit run --all-files` if there are file that were committe
 ## Use
 Activate the shell with: `pipenv shell`  
 
-Run local tests: `pipenv run pipenv run pytest --cov=resc`  
+Run local tests: `pipenv run pytest --cov=resc`  
 Lint with: `pipenv run pylint app.py resc/ tests/`
